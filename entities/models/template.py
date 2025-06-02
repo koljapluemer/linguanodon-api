@@ -13,42 +13,8 @@ class Template(models.Model):
 
     derived_from = models.ForeignKey("self", on_delete=models.CASCADE, blank=True, null=True)
 
-    def __str__(self):
-        return self.name
-
-class TemplateField(models.Model):
-    key = models.CharField(max_length=255)
-    template = models.ForeignKey(Template, on_delete=models.CASCADE)
-    derived_from = models.ForeignKey("self", on_delete=models.CASCADE, blank=True, null=True)
-    
-    def __str__(self):
-        return self.key + ":" + self.value
-
-    class Meta:
-        unique_together = ('key', 'template')
-        abstract = True
-
-class TemplateFieldTranslation(TemplateField):
-    value = models.TextField()
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.key = "translation"
-
-class TemplateFieldTargetLanguage(TemplateField):
-    value = models.TextField()
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.key = "target_language"
-
-class TemplateFieldLink(TemplateField):
-    value = models.URLField()
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.key = "link"
-
-class TemplateFieldImage(TemplateField):
-    value = models.ImageField(upload_to='templates/images/')
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.key = "image"
+    field_translation = models.TextField(blank=True, null=True)
+    field_target_language = models.TextField(blank=True, null=True)
+    field_link = models.URLField(blank=True, null=True)
+    field_image = models.ImageField(blank=True, null=True)
 
