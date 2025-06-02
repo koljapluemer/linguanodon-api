@@ -10,6 +10,7 @@ class LearningGoal(models.Model):
     creator = models.ForeignKey(User, on_delete=models.CASCADE)
     is_public = models.BooleanField(default=False)
     is_approved = models.BooleanField(default=False)
+    derived_from = models.ForeignKey("self", on_delete=models.CASCADE, blank=True, null=True)
     
     def __str__(self):
         return self.name

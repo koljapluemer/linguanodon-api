@@ -14,6 +14,7 @@ class Exercise(models.Model):
     is_public = models.BooleanField(default=False)
     is_approved = models.BooleanField(default=False)
     creator = models.ForeignKey(User, on_delete=models.CASCADE)
+    derived_from = models.ForeignKey("self", on_delete=models.CASCADE, blank=True, null=True)
     class Meta:
         abstract = True
 
