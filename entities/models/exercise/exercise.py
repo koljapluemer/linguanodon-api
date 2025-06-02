@@ -1,7 +1,7 @@
 from django.contrib.postgres.fields import ArrayField
 from django.db import models
 from entities.models.learning_goal import LearningGoal
-
+from entities.models.language import Language
 from django.contrib.auth.models import User
 
 class Exercise(models.Model):
@@ -15,6 +15,7 @@ class Exercise(models.Model):
     is_approved = models.BooleanField(default=False)
     creator = models.ForeignKey(User, on_delete=models.CASCADE)
     derived_from = models.ForeignKey("self", on_delete=models.CASCADE, blank=True, null=True)
+    language = models.ForeignKey(Language, on_delete=models.CASCADE)
     class Meta:
         abstract = True
 

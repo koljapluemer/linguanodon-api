@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from entities.models.language import Language
 
 class Template(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
@@ -7,6 +8,7 @@ class Template(models.Model):
     creator = models.ForeignKey(User, on_delete=models.CASCADE)
     is_public = models.BooleanField(default=False)
     is_approved = models.BooleanField(default=False)
+    language = models.ForeignKey(Language, on_delete=models.CASCADE)
 
     derived_from = models.ForeignKey("self", on_delete=models.CASCADE, blank=True, null=True)
 
