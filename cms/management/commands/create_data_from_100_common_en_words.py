@@ -64,7 +64,7 @@ class Command(BaseCommand):
 
                 # Create individual learning goal
                 word_goal = LearningGoal.objects.create(
-                    name=f"Know the meaning of {word} in Egyptian Arabic",
+                    name=f'Know the meaning of "{word}" in Egyptian Arabic',
                     language=arz_language
                 )
                 word_goal.parents.add(parent_goal)

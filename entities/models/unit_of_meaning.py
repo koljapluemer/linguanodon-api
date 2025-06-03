@@ -7,3 +7,5 @@ class UnitOfMeaning(models.Model):
     image = models.ImageField(upload_to='unit_of_meaning_images/', blank=True, null=True)
     learning_goals = models.ManyToManyField(LearningGoal, blank=True)
 
+    def __str__(self):
+        return self.based_on_meaning
