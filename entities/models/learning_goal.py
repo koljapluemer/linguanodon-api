@@ -6,6 +6,7 @@ class LearningGoal(models.Model):
     description = models.TextField()
     parents = models.ManyToManyField("self", blank=True)
     language = models.ForeignKey(Language, on_delete=models.CASCADE)
+    updated_at = models.DateTimeField(auto_now=True)
 
     
     def __str__(self):

@@ -8,6 +8,8 @@ class Translation(models.Model):
     text = models.TextField()
     language = models.ForeignKey(Language, on_delete=models.CASCADE)
     unit_of_meaning = models.ForeignKey(UnitOfMeaning, on_delete=models.CASCADE)
+    updated_at = models.DateTimeField(auto_now=True)
+
 
     def __str__(self):
         return self.text
