@@ -1,0 +1,1 @@
+web: gunicorn linguanodon.wsgi --log-file - 
