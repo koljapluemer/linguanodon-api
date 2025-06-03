@@ -1,6 +1,6 @@
 from .learning_goal import LearningGoal
-from .template import Template
 from .language import Language
-from .artifact import Artifact
+from .unit_of_meaning import UnitOfMeaning
+from .translation import Translation
 
-__all__ = ["LearningGoal", "Template", "Language", "Artifact"]
+__all__ = ["LearningGoal", "Language", "UnitOfMeaning", "Translation"]
