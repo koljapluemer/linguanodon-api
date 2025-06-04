@@ -1,0 +1,46 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "name": "Basic Greetings",
+            "description": "Learn common greeting phrases",
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "updated_at": "2024-03-21T10:00:00+00:00"
+        },
+        {
+            "id": 2,
+            "name": "Numbers 1-10",
+            "description": "Learn to count from 1 to 10",
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "updated_at": "2024-03-21T10:00:00+00:00"
+        },
+        {
+            "id": 3,
+            "name": "Common Verbs",
+            "description": "Learn frequently used verbs",
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "updated_at": "2024-03-21T10:00:00+00:00"
+        }
+    ],
+    "pagination": {
+        "total_items": 3,
+        "total_pages": 1,
+        "current_page": 1,
+        "page_size": 10,
+        "has_next": false,
+        "has_previous": false
+    }
+}
