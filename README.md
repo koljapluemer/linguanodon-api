@@ -4,6 +4,9 @@ Backend providing source data for *linguanodon*.
 
 ## Development
 
+See also:
+  - [How to Add an Endpoint](/doc/adding-an-endpoint.md)
+
 ### Structure
 
 - Define shared models in the `entities` app and nowhere else
