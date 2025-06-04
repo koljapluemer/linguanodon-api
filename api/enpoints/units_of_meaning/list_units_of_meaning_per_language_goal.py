@@ -1,9 +1,15 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, serializers
 from rest_framework.pagination import PageNumberPagination
 from django_filters import rest_framework as filters
 from entities.models.unit_of_meaning import UnitOfMeaning
-from api.enpoints.units_of_meaning.serializers import UnitOfMeaningSerializer
 from django.utils import timezone
+
+class UnitOfMeaningListSerializer(serializers.ModelSerializer):
+    language = serializers.CharField(source='language.code')
+
+    class Meta:
+        model = UnitOfMeaning
+        fields = ['id', 'text', 'language']
 
 class UnitOfMeaningFilter(filters.FilterSet):
     learning_goal_id = filters.NumberFilter(field_name='learning_goals__id')
@@ -20,6 +26,6 @@ class StandardResultsSetPagination(PageNumberPagination):
 
 class UnitOfMeaningViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = UnitOfMeaning.objects.all()
-    serializer_class = UnitOfMeaningSerializer
+    serializer_class = UnitOfMeaningListSerializer
     pagination_class = StandardResultsSetPagination
     filterset_class = UnitOfMeaningFilter
