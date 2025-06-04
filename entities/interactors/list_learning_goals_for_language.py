@@ -21,7 +21,7 @@ def list_learning_goals_for_language(language_code: str, page: int = 1, page_siz
         Language.DoesNotExist: If the language with the given code doesn't exist
     """
     language = Language.objects.get(code=language_code)
-    queryset = LearningGoal.objects.filter(language=language).order_by('id')
+    queryset = LearningGoal.objects.filter(language=language).only('id', 'name').order_by('id')
     
     paginator = Paginator(queryset, page_size)
     page_obj = paginator.get_page(page)

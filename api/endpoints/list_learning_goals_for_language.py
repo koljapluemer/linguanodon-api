@@ -20,21 +20,14 @@ class ListLearningGoalsForLanguageView(View):
                 page_size=page_size
             )
             
-            # Convert learning goals to dictionary format
-            goals_data = []
-            for goal in learning_goals:
-                goal_data = {
+            # Convert learning goals to dictionary format with only id and name
+            goals_data = [
+                {
                     'id': goal.id,
-                    'name': goal.name,
-                    'description': goal.description,
-                    'language': {
-                        'id': goal.language.id,
-                        'name': goal.language.name,
-                        'code': goal.language.code
-                    },
-                    'updated_at': goal.updated_at.isoformat()
+                    'name': goal.name
                 }
-                goals_data.append(goal_data)
+                for goal in learning_goals
+            ]
             
             return JsonResponse({
                 'status': 'success',
