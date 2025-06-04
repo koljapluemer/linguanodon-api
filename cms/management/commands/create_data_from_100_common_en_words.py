@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from django.core.management.base import BaseCommand
-from entities.models import Language, LearningGoal, UnitOfMeaning, Translation
+from entities.models import Language, LearningGoal, UnitOfMeaning
 
 class Command(BaseCommand):
     help = 'Creates the 100 most common English words with their learning goals'
@@ -46,22 +46,16 @@ class Command(BaseCommand):
             self.stdout.write(self.style.ERROR(f'Invalid JSON in {json_path}'))
             return
 
-        # Create UnitOfMeaning, Translation, and LearningGoal for each word
+        # Create UnitOfMeaning and LearningGoal for each word
         created_count = 0
         for word in words:
-            # Create UnitOfMeaning
+            # Create UnitOfMeaning for English word
             unit, created = UnitOfMeaning.objects.get_or_create(
-                based_on_meaning=f"en: {word}"
+                text=word,
+                language=en_language
             )
             
             if created:
-                # Create English Translation
-                Translation.objects.create(
-                    text=word,
-                    language=en_language,
-                    unit_of_meaning=unit
-                )
-
                 # Create individual learning goal
                 word_goal = LearningGoal.objects.create(
                     name=f'Know the meaning of "{word}" in Egyptian Arabic',
