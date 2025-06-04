@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'cms',
     'rest_framework',
     'django_filters',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -154,4 +155,21 @@ if not DEBUG:
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
+# DRF Spectacular settings
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Linguanodon API',
+    'DESCRIPTION': 'API for Linguanodon language learning platform',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'COMPONENT_SPLIT_REQUEST': True,
+    'SWAGGER_UI_SETTINGS': {
+        'deepLinking': True,
+        'persistAuthorization': True,
+        'displayOperationId': True,
+    },
+    'EXTENSIONS': [
+        'api.schema.ListLearningGoalsForLanguageViewExtension',
+    ],
 }
