@@ -1,0 +1,19 @@
+{
+    "status": "success",
+    "data": {
+        "id": 1,
+        "text": "Hola",
+        "language": {
+            "id": 2,
+            "name": "Spanish",
+            "code": "es"
+        },
+        "creation_context": "Test",
+        "license": null,
+        "owner": null,
+        "owner_link": null,
+        "source": null,
+        "source_link": null,
+        "updated_at": "2024-01-01T00:00:00Z"
+    }
+} 

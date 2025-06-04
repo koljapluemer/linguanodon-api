@@ -1,0 +1,27 @@
+[
+    {
+        "model": "entities.language",
+        "pk": 2,
+        "fields": {
+            "name": "Spanish",
+            "code": "es",
+            "updated_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "entities.unitofmeaning",
+        "pk": 1,
+        "fields": {
+            "text": "Hola",
+            "language": 2,
+            "updated_at": "2024-01-01T00:00:00Z",
+            "creation_context": "Test",
+            "license": null,
+            "owner": null,
+            "owner_link": null,
+            "source": null,
+            "source_link": null,
+            "translations": []
+        }
+    }
+] 
