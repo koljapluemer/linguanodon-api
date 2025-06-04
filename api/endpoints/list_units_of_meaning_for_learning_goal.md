@@ -5,21 +5,25 @@ This endpoint returns a paginated list of units of meaning associated with a spe
 ## Endpoint
 
 ```
-GET /api/learning-goals/{learning_goal_id}/units-of-meaning
+GET /api/list_units_of_meaning_for_learning_goal/{learning_goal_id}/
 ```
 
-## URL Parameters
+## Path Parameters
 
-- `learning_goal_id` (integer, required): The ID of the learning goal to get units of meaning for
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| learning_goal_id | integer | The ID of the learning goal to get units of meaning for |
 
 ## Query Parameters
 
-- `page` (integer, optional): The page number to retrieve. Defaults to 1.
-- `page_size` (integer, optional): Number of items per page. Defaults to 10.
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| page | integer | 1 | Page number (1-based) |
+| page_size | integer | 10 | Number of items per page (max 100) |
 
 ## Response
 
-### Success Response (200 OK)
+### Success (200)
 
 ```json
 {
@@ -48,10 +52,28 @@ GET /api/learning-goals/{learning_goal_id}/units-of-meaning
 
 ### Error Responses
 
-- `404 Not Found`: If the learning goal with the specified ID does not exist
+#### Learning Goal Not Found (404)
+
+```json
+{
+    "status": "error",
+    "message": "Learning goal with id 1 not found"
+}
+```
+
+#### Invalid Pagination Parameters (400)
+
+```json
+{
+    "status": "error",
+    "message": "Invalid pagination parameters"
+}
+```
 
 ## Example Usage
 
 ```bash
-curl -X GET "http://localhost:8000/api/learning-goals/1/units-of-meaning?page=1&page_size=10"
-```
+# Get first page of units of meaning for learning goal with ID 1
+curl /api/list_units_of_meaning_for_learning_goal/1/
+
+# Get second page with 20 items per page

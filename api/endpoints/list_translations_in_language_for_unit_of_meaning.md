@@ -1,18 +1,19 @@
-# List Learning Goals for Language
+# List Translations in Language for Unit of Meaning
 
-Lists all learning goals for a specific language.
+Lists all translations of a unit of meaning in a specific language.
 
 ## Endpoint
 
 ```
-GET /api/list_learning_goals_for_language/{language_code}/
+GET /api/list_translations_in_language_for_unit_of_meaning/{unit_of_meaning_id}/{language_code}/
 ```
 
 ## Path Parameters
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| language_code | string | The code of the language to get learning goals for (e.g., 'en' for English) |
+| unit_of_meaning_id | integer | The ID of the unit of meaning to get translations for |
+| language_code | string | The code of the language to get translations in (e.g., 'en' for English) |
 
 ## Query Parameters
 
@@ -30,12 +31,10 @@ GET /api/list_learning_goals_for_language/{language_code}/
     "status": "success",
     "data": [
         {
-            "id": 1,
-            "name": "Basic Greetings"
+            "id": 3
         },
         {
-            "id": 2,
-            "name": "Numbers 1-10"
+            "id": 4
         }
     ],
     "pagination": {
@@ -50,6 +49,15 @@ GET /api/list_learning_goals_for_language/{language_code}/
 ```
 
 ### Error Responses
+
+#### Unit of Meaning Not Found (404)
+
+```json
+{
+    "status": "error",
+    "message": "Unit of meaning with id 1 not found"
+}
+```
 
 #### Language Not Found (404)
 
@@ -72,9 +80,9 @@ GET /api/list_learning_goals_for_language/{language_code}/
 ## Example Usage
 
 ```bash
-# Get first page of English learning goals
-curl /api/list_learning_goals_for_language/en/
+# Get first page of English translations for unit of meaning with ID 1
+curl /api/list_translations_in_language_for_unit_of_meaning/1/en/
 
 # Get second page with 20 items per page
-curl /api/list_learning_goals_for_language/en/?page=2&page_size=20
-``` 
+curl /api/list_translations_in_language_for_unit_of_meaning/1/en/?page=2&page_size=20
+```
