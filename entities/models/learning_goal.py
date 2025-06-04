@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from entities.models.language import Language
+
 class LearningGoal(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
@@ -8,6 +9,8 @@ class LearningGoal(models.Model):
     language = models.ForeignKey(Language, on_delete=models.CASCADE)
     updated_at = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        ordering = ['-updated_at', 'name']
     
     def __str__(self):
         return self.name
