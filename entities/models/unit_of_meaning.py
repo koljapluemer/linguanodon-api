@@ -6,6 +6,7 @@ from entities.models.learning_goal import LearningGoal
 class UnitOfMeaning(models.Model):
     text = models.TextField()
     language = models.ForeignKey(Language, on_delete=models.CASCADE)
+    pronunciation = models.TextField(blank=True, null=True)
 
     translations = models.ManyToManyField('self', blank=True)
 
