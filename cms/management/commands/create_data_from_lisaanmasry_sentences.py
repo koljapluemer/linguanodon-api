@@ -10,9 +10,9 @@ import time
 import re
 from entities.models import LearningGoal, UnitOfMeaning
 
-MAX_SENTENCES = 1  # Limit the number of sentences to scrape
-SLEEP_TIME = 2  # Sleep time between requests in seconds
-WORD_CLICK_WAIT = 1  # Wait time after clicking a word
+MAX_SENTENCES = 10  # Limit the number of sentences to scrape
+SLEEP_TIME = 1  # Sleep time between requests in seconds
+WORD_CLICK_WAIT = 0.3  # Wait time after clicking a word
 
 class Command(BaseCommand):
     help = 'Scrape example sentences from Lisaan Masry and create learning data'
