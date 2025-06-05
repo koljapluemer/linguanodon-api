@@ -10,7 +10,7 @@ import time
 import re
 from entities.models import LearningUnit, TanglibleLearningUnit
 
-MAX_SENTENCES = 1  # Limit the number of sentences to scrape
+MAX_SENTENCES = 25  # Limit the number of sentences to scrape
 SLEEP_TIME = 1  # Sleep time between requests in seconds
 WORD_CLICK_WAIT = 0.3  # Wait time after clicking a word
 
@@ -492,10 +492,10 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         # Drop all existing objects
-        self.stdout.write('Dropping all existing objects...')
-        TanglibleLearningUnit.objects.all().delete()
-        LearningUnit.objects.all().delete()
-        self.stdout.write('All objects dropped')
+        # self.stdout.write('Dropping all existing objects...')
+        # TanglibleLearningUnit.objects.all().delete()
+        # LearningUnit.objects.all().delete()
+        # self.stdout.write('All objects dropped')
 
         base_url = "https://eu.lisaanmasry.org/online/example.php"
         sentences_processed = 0

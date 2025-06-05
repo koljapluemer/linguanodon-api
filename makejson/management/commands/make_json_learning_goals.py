@@ -59,12 +59,21 @@ def get_all_related_tangible_units(unit):
     
     # Get all TanglibleLearningUnits that are children
     tangible_units = set()
+    
+    # First check if the unit itself is a TanglibleLearningUnit
+    try:
+        tangible_unit = unit.tangliblelearningunit
+        tangible_units.add(tangible_unit)
+        print(f"Added parent tangible unit {tangible_unit.id} ({tangible_unit.text})")
+    except TanglibleLearningUnit.DoesNotExist:
+        print(f"Parent unit {unit.id} is not a tangible unit")
+    
+    # Then process children
     for child in all_children:
-        # Check if the child is a TanglibleLearningUnit using Django's reverse relation
         try:
             tangible_unit = child.tangliblelearningunit
             tangible_units.add(tangible_unit)
-            print(f"Added tangible unit {tangible_unit.id} ({tangible_unit.text})")
+            print(f"Added child tangible unit {tangible_unit.id} ({tangible_unit.text})")
         except TanglibleLearningUnit.DoesNotExist:
             print(f"Skipping non-tangible unit {child.id} ({child.name})")
     
