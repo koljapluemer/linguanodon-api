@@ -1,5 +1,5 @@
 from django.contrib import admin
-from entities.models import LearningGoal, UnitOfMeaning
+from entities.models import LearningUnit, TanglibleLearningUnit
 
-admin.site.register(LearningGoal)
-admin.site.register(UnitOfMeaning)
+admin.site.register(LearningUnit)
+admin.site.register(TanglibleLearningUnit)

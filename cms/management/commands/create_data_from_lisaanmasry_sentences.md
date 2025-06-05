@@ -24,39 +24,38 @@
   - Save notes or empty string as `sentence_notes`
 
 - Make sentence-related objects:
-  - Create a `LearningGoal`:
-    - `name`: `sentence_arz`
-    - `description`: None
-    - `parents`: None
+  - Create a `TanglibleLearningUnit` for the arz sentence:
     - `language_code`: "arz"
-  - Create a `UnitOfMeaning` for the arz sentence:
-    -  `text`: `sentence_arz`
-    -  `language_code`: "arz"
-    -  `pronunciation`: `sentence_transliteration`
-    -  `type_info`: Null
-    -  `notes`: `sentence_notes`
-    -  `translations`, `synonyms`, `similar_but_not_synonyms`: [] for now
-    -  `learning_goals`: add the learning goal created above
-    -  `creation_context`: "Lisaan Masry Script"
+    - `text`: `sentence_arz`
+    - `description`: None
+    - `parents`: []
+    - `creation_context`: "Lisaan Masry Script"
+    - `text`: `sentence_arz`
+    - `pronunciation`: `sentence_transliteration`
+    - `type_info`: Null
+    - `notes`: `sentence_notes`
+    - `translations`, `synonyms`, `similar_but_not_synonyms`: [] for now
     -  `license`: "Copyright © 2007-2020 Mike Green — non-commercial use"
     -  `owner`: "Lisaan Masry"
     -  `owner_link`: "https://eu.lisaanmasry.org/info/en/copyright.html"
-    -  `source`: "Lisaan Masry Examples"
+    -  `source`: "Lisaan Masry Examples Example `sentence_number`"
     -  `source_link`: "https://eu.lisaanmasry.org/online/example.php"
-  - Create a `UnitOfMeaning` for the en sentence:
-    -  `text`: `sentence_en`
-    -  `language_code`: "en"
-    -  `pronunciation`: Null
-    -  `type_info`: Null
-    -  `notes`: Null
-    -  `translations`: add the UnitOfMeaning of the arz sentence 
-    -  `synonyms`, `similar_but_not_synonyms`: [] 
-    -  `learning_goals`: add the learning goal created above
-    -  `creation_context`: "Lisaan Masry Script"
+  - Create a `TanglibleLearningUnit` for the en sentence:
+    - `language_code`: "en"
+    - `text`: `sentence_en`
+    - `description`: None
+    - `parents`: []
+    - `creation_context`: "Lisaan Masry Script"
+    - `text`: `sentence_arz`
+    - `pronunciation`: None
+    - `type_info`: Null
+    - `notes`: None
+    - `translations`: Add the object created above
+    - `synonyms`, `similar_but_not_synonyms`: [] 
     -  `license`: "Copyright © 2007-2020 Mike Green — non-commercial use"
     -  `owner`: "Lisaan Masry"
     -  `owner_link`: "https://eu.lisaanmasry.org/info/en/copyright.html"
-    -  `source`: "Lisaan Masry Example # `sentence_number`"
+    -  `source`: "Lisaan Masry Example `sentence_number`"
     -  `source_link`: "https://eu.lisaanmasry.org/online/example.php"
 
 
@@ -86,12 +85,12 @@
           - In the same `<td`> look for an `<i>` tag. If it does not exist, do not worry, it's not critical. If it exist, save content as `form_type`
         - Get the third `td` of the row
           - Save its content as `form_arabic`
-        - If it's the first `<tr>` of this table (ONLY THEN!!), make a `LearningGoal`:
+        - For *every* `<tr>` of the table, create a `TanglibleLearningUnit`. Save references, we're going to need them later:
+          - `text`: `form_arabic`
           - `language_code`: "arz"
           - `name`: `form_arabic`
           - no `description`
-          - `parents`: add the sentence's language goal created earlier
-        - Then, for *every* `<tr>` of the table, create a `UnitOfMeaning`. Save references, we're going to need them later:
+          - `parents`: add the two `LearningUnit`s created for the whole sentence earlier 
           - `text`: `form_arabic`
           - `language_code`: `word_lang`
           - `pronunciation`: `form_transliteration`
@@ -99,9 +98,8 @@
           - `notes`: Null
           - `translations:` None, for now
           - `synonyms`: []
-          - `similar_but_not_synonyms`: Add references to all other objects that were created looping this table. If a table as 4 `<tr>`, each created `UnitOfMeaning` should in this field link to the other 3
-          - `learning_goals`: add the language goal created in the step above
-          - creation context, license, owner etc: same as for the general sentence object
+          - `similar_but_not_synonyms`: Add references to all other objects that were created looping this table. If a table as 4 `<tr>`, each created `TanglibleLearningUnit` should in this field link to the other 3
+          - creation context, license, owner etc: same as for the general sentence objects
 
     - Now, let's find all of the word's translations:
       - Find the first `<table>` following as direct sibling behind an `<h1>` with the content "Meanings"
@@ -112,16 +110,16 @@
         - There may also be the following two elements:
           - An `<i>` tag. If exists, save as `form_type`
           - Text without a tag between the `<a>` and the `<i>`. If that exists, save as `form_note`.
-        - Create a `UnitOfMeaning` for every such row:
+        - Create a `TanglibleLearningUnit` for every such row:
           - `text`: `form_en`
           - `language_code`: "en"
           - `pronunciation`: None
           - `type_info`: `form_type` (if exists)
           - `notes`: `form_note` (if exists)
-          - `translations`: Add ALL the `UnitOfMeanings` that were created for this word in the previous step!
-          - `synonyms`: Add ALL the `UnitOfMeaning`s that were created in relation to this table right here
+          - `translations`: Add ALL the `TanglibleLearningUnit` that were created for this word in the previous step!
+          - `synonyms`: Add ALL the `TanglibleLearningUnit`s that were created in relation to this table right here
           - `similar_but_not_synonyms`: []
-          - `learning_goals`: None
+          - `parents`: add the two `LearningUnit`s created for the whole sentence earlier 
           - all the license fields: same as the general sentence object
 
 ## Misc Features

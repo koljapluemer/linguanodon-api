@@ -1,4 +1,4 @@
-from .learning_goal import LearningGoal
-from .unit_of_meaning import UnitOfMeaning
+from .learning_unit import LearningUnit
+from .tanglible_learning_unit import TanglibleLearningUnit
 
-__all__ = ["LearningGoal", "UnitOfMeaning"]
+__all__ = ["LearningUnit", "TanglibleLearningUnit"]
