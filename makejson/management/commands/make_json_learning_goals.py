@@ -77,7 +77,18 @@ def get_all_related_tangible_units(unit):
         except TanglibleLearningUnit.DoesNotExist:
             print(f"Skipping non-tangible unit {child.id} ({child.name})")
     
-    print(f"Found {len(tangible_units)} tangible units in children")
+    # If this unit has many parents, include tangible parents and their translations
+    if unit.parents.count() >= MIN_PARENTS_COUNT:
+        print(f"Unit {unit.id} has {unit.parents.count()} parents, checking for tangible parents")
+        for parent in unit.parents.all():
+            try:
+                tangible_parent = parent.tangliblelearningunit
+                tangible_units.add(tangible_parent)
+                print(f"Added parent's tangible unit {tangible_parent.id} ({tangible_parent.text})")
+            except TanglibleLearningUnit.DoesNotExist:
+                print(f"Skipping non-tangible parent {parent.id} ({parent.name})")
+    
+    print(f"Found {len(tangible_units)} tangible units in children and parents")
     
     # Now get all translations of these tangible units
     all_related = get_all_related_translations(tangible_units)
