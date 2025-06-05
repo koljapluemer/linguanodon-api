@@ -6,7 +6,10 @@ class UnitOfMeaning(models.Model):
     text = models.TextField()
     language_code = models.CharField(max_length=255)
     pronunciation = models.TextField(blank=True, null=True)
+    type_info = models.CharField(max_length=255, blank=True, null=True)
+    notes = models.TextField(blank=True, null=True)
 
+    # implies also synonyms in the same language
     translations = models.ManyToManyField('self', blank=True)
 
     learning_goals = models.ManyToManyField(LearningGoal, blank=True)
@@ -21,6 +24,7 @@ class UnitOfMeaning(models.Model):
 
     class Meta:
         ordering = ['-updated_at', 'text']
+        unique_together = ('text', 'language_code', 'type_info')
 
     def __str__(self):
         return self.text
