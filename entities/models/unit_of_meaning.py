@@ -1,7 +1,5 @@
 from django.db import models
 
-from entities.models.learning_goal import LearningGoal
-
 class UnitOfMeaning(models.Model):
     text = models.TextField()
     language_code = models.CharField(max_length=255)
@@ -14,7 +12,7 @@ class UnitOfMeaning(models.Model):
     synonyms = models.ManyToManyField('self', blank=True)
     similar_but_not_synonyms = models.ManyToManyField('self', blank=True)
 
-    learning_goals = models.ManyToManyField(LearningGoal, blank=True)
+    learning_goals = models.ManyToManyField('entities.LearningGoal', blank=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     creation_context = models.TextField(default="Unknown")

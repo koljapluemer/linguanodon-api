@@ -1,4 +1,5 @@
 from django.db import models
+from entities.models.unit_of_meaning import UnitOfMeaning
 
 class LearningGoal(models.Model):
     language_code = models.CharField(max_length=255)
@@ -15,7 +16,6 @@ class LearningGoal(models.Model):
         return self.name
 
     def get_all_units_of_meaning(self):
-        from entities.models.unit_of_meaning import UnitOfMeaning
         all_goal_ids = set()
         to_visit = [self]
         while to_visit:
