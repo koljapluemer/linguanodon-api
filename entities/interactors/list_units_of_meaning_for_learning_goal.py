@@ -12,10 +12,8 @@ class ListUnitsOfMeaningForLearningGoal:
         # Get learning goal or 404
         learning_goal = get_object_or_404(LearningGoal, id=self.learning_goal_id)
         
-        # Get units of meaning for the learning goal, ordered by ID
-        units_of_meaning = UnitOfMeaning.objects.filter(
-            learning_goals=learning_goal
-        ).order_by('id')
+        # Get all units of meaning recursively for this learning goal and its descendants
+        units_of_meaning = learning_goal.get_all_units_of_meaning().order_by('id')
         
         # Paginate results
         paginator = Paginator(units_of_meaning, self.page_size)
