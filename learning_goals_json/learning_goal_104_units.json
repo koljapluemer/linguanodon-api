@@ -1,0 +1,209 @@
+[
+  {
+    "id": 340,
+    "text": "yesterday",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      339
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 339,
+    "text": "\u0625\u0645\u0628\u0627 \u064e\u0631 \u0650\u062d",
+    "language_code": "arz",
+    "pronunciation": "'imbaerih",
+    "type_info": "adverb",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      340
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      106
+    ]
+  },
+  {
+    "id": 338,
+    "text": "cook",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "verb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      337,
+      336,
+      335,
+      334
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 337,
+    "text": "\u0645\u0640\u064e\u0637\u0628\u0648\u062e",
+    "language_code": "arb",
+    "pronunciation": "matbooch",
+    "type_info": "verb passive participle",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      338
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      336,
+      335,
+      334
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 336,
+    "text": "\u0637\u0627 \u064e\u0628\u0640\u0650\u062e",
+    "language_code": "arb",
+    "pronunciation": "taabich",
+    "type_info": "verb active participle",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      338
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      337,
+      335,
+      334
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 335,
+    "text": "\u064a\u0640\u064f\u0637\u0628\u0640\u064f\u062e",
+    "language_code": "arb",
+    "pronunciation": "yutbuch",
+    "type_info": "verb imperfect",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      338
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      337,
+      336,
+      334
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 334,
+    "text": "\u0637\u0640\u064e\u0628\u0640\u064e\u062e",
+    "language_code": "arb",
+    "pronunciation": "tabach",
+    "type_info": "verb perfect",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      338
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      337,
+      336,
+      335
+    ],
+    "learning_goals": [
+      105
+    ]
+  },
+  {
+    "id": 333,
+    "text": "Donna cooked yesterday",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": null,
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      332
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      104
+    ]
+  },
+  {
+    "id": 332,
+    "text": "\u062f\u0648\u0646\u0627 \u064e \u0637\u0640\u064e\u0628\u0640\u064e\u062e\u0640\u0650\u062a \u0625\u0645\u0628\u0627 \u064e\u0631 \u0650\u062d",
+    "language_code": "arz",
+    "pronunciation": "doona tabachit 'imbaerih",
+    "type_info": null,
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      333
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      104
+    ]
+  }
+]

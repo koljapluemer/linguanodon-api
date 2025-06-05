@@ -1,0 +1,454 @@
+[
+  {
+    "id": 430,
+    "text": "please",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      427,
+      426,
+      425
+    ],
+    "synonyms": [
+      429,
+      428
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 429,
+    "text": "excuse me",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "expression",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      427,
+      426,
+      425
+    ],
+    "synonyms": [
+      430,
+      428
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 428,
+    "text": "please",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "expression",
+    "notes": "with your permission",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      427,
+      426,
+      425
+    ],
+    "synonyms": [
+      430,
+      429
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 427,
+    "text": "\u0644\u0640\u064e\u0648 \u0633\u0640\u064e\u0645\u0640\u064e\u062d\u062a\u0648\u0627",
+    "language_code": "arz",
+    "pronunciation": "law samahtu",
+    "type_info": "expression plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      430,
+      429,
+      428
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      426,
+      425
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 426,
+    "text": "\u0644\u0640\u064e\u0648 \u0633\u0640\u064e\u0645\u0640\u064e\u062d\u062a\u064a",
+    "language_code": "arz",
+    "pronunciation": "law samahti",
+    "type_info": "expression feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      430,
+      429,
+      428
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      427,
+      425
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 425,
+    "text": "\u0644\u0640\u064e\u0648 \u0633\u0640\u064e\u0645\u0640\u064e\u062d\u062a",
+    "language_code": "arz",
+    "pronunciation": "law samaht",
+    "type_info": "expression masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      430,
+      429,
+      428
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      427,
+      426
+    ],
+    "learning_goals": [
+      136
+    ]
+  },
+  {
+    "id": 424,
+    "text": "grated",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "participle",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      423,
+      422
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 423,
+    "text": "\u0645\u0640\u064e\u0628\u0634\u0648\u0631 \u064e\u0629",
+    "language_code": "arz",
+    "pronunciation": "mabshoora",
+    "type_info": "participle feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      424
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      422
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 422,
+    "text": "\u0645\u0640\u064e\u0628\u0634\u0648\u0631",
+    "language_code": "arz",
+    "pronunciation": "mabshoor",
+    "type_info": "participle masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      424
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      423
+    ],
+    "learning_goals": [
+      135
+    ]
+  },
+  {
+    "id": 421,
+    "text": "cheese",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "noun",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      420,
+      419
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 420,
+    "text": "\u062c\u0640\u0650\u0628\u0640\u064e\u0646",
+    "language_code": "arb",
+    "pronunciation": "giban",
+    "type_info": "noun plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      421
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      419
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 419,
+    "text": "\u062c\u0640\u0650\u0628\u0646\u0640\u064e\u0629",
+    "language_code": "arb",
+    "pronunciation": "gibna",
+    "type_info": "noun feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      421
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      420
+    ],
+    "learning_goals": [
+      134
+    ]
+  },
+  {
+    "id": 418,
+    "text": "wanting",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "participle",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      416,
+      415,
+      414
+    ],
+    "synonyms": [
+      417
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 417,
+    "text": "want",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "verb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      416,
+      415,
+      414
+    ],
+    "synonyms": [
+      418
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 416,
+    "text": "\u0639\u0627 \u064e\u064a\u0632\u064a\u0646",
+    "language_code": "arz",
+    "pronunciation": "Aayzeen",
+    "type_info": "participle plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      418,
+      417
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      415,
+      414
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 415,
+    "text": "\u0639\u0627 \u064e\u064a\u0640\u0650\u0632 \u064e\u0629",
+    "language_code": "arz",
+    "pronunciation": "Aaeyiza",
+    "type_info": "participle feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      418,
+      417
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      416,
+      414
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 414,
+    "text": "\u0639\u0627 \u064e\u064a\u0640\u0650\u0632",
+    "language_code": "arz",
+    "pronunciation": "Aaeyiz",
+    "type_info": "participle masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      418,
+      417
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      416,
+      415
+    ],
+    "learning_goals": [
+      133
+    ]
+  },
+  {
+    "id": 413,
+    "text": "I want (some) grated cheese, please",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": null,
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      412
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      132
+    ]
+  },
+  {
+    "id": 412,
+    "text": "\u0639\u0627 \u064e\u064a\u0640\u0650\u0632 \u062c\u0640\u0650\u0628\u0646\u0640\u064e\u0629 \u0645\u0640\u064e\u0628\u0634\u0648\u0631 \u064e\u0629\u060c \u0644\u0640\u064e\u0648 \u0633\u0640\u064e\u0645\u0640\u064e\u062d\u062a",
+    "language_code": "arz",
+    "pronunciation": "Aaeyiz gibna mabshoora, law samaht",
+    "type_info": null,
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      413
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      132
+    ]
+  }
+]

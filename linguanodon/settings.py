@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django_filters',
     'drf_spectacular',
     'corsheaders',  # Add CORS headers app
+    'makejson',
 ]
 
 MIDDLEWARE = [

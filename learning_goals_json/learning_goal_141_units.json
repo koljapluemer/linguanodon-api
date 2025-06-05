@@ -1,0 +1,155 @@
+[
+  {
+    "id": 448,
+    "text": "frizzy",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adjective",
+    "notes": "hair",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      447,
+      446
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 447,
+    "text": "\u0643\u0648\u0631\u062a",
+    "language_code": "arz",
+    "pronunciation": "koort",
+    "type_info": "adjective masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      448
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      446
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 446,
+    "text": "\u0623\u0643\u0631 \u064e\u062a",
+    "language_code": "arz",
+    "pronunciation": "'akrat",
+    "type_info": "adjective masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      448
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      447
+    ],
+    "learning_goals": [
+      143
+    ]
+  },
+  {
+    "id": 445,
+    "text": "hair",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "noun",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      444
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 444,
+    "text": "\u0634\u0640\u064e\u0639\u0631",
+    "language_code": "arb",
+    "pronunciation": "shaAr",
+    "type_info": "noun collective",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      445
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      142
+    ]
+  },
+  {
+    "id": 443,
+    "text": "her hair is frizzy",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": null,
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      442
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      141
+    ]
+  },
+  {
+    "id": 442,
+    "text": "\u0634\u0640\u064e\u0639\u0631 \u064e\u0647\u0627 \u064e \u0623\u0643\u0631 \u064e\u062a",
+    "language_code": "arz",
+    "pronunciation": "shaAraha 'akrat",
+    "type_info": null,
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      443
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      141
+    ]
+  }
+]

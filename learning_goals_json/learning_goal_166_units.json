@@ -1,0 +1,223 @@
+[
+  {
+    "id": 535,
+    "text": "sibling",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "noun",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      534
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 534,
+    "text": "\u0625\u062e\u0648\u0627 \u064e\u062a",
+    "language_code": "arz",
+    "pronunciation": "'ichwaet",
+    "type_info": "noun plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      535
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      169
+    ]
+  },
+  {
+    "id": 533,
+    "text": "middle",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adjective",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      532,
+      531,
+      530
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 532,
+    "text": "\u0648 \u064f\u0633\u0637\u0627 \u064e\u0646\u0640\u0650\u064a\u064a\u0646",
+    "language_code": "arz",
+    "pronunciation": "wustaaniyeen",
+    "type_info": "adjective plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      533
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      531,
+      530
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 531,
+    "text": "\u0648 \u064f\u0633\u0637\u0627 \u064e\u0646\u0640\u0650\u064a\u064a\u0640\u064e\u0629",
+    "language_code": "arz",
+    "pronunciation": "wustaaniyya",
+    "type_info": "adjective feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      533
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      532,
+      530
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 530,
+    "text": "\u0648 \u064f\u0633\u0637\u0627 \u064e\u0646\u064a",
+    "language_code": "arz",
+    "pronunciation": "wustaani",
+    "type_info": "adjective masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      533
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      532,
+      531
+    ],
+    "learning_goals": [
+      168
+    ]
+  },
+  {
+    "id": 529,
+    "text": "she",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "pronoun",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      528
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 528,
+    "text": "\u0647\u0640\u0650\u064a\u064a\u064e",
+    "language_code": "arb",
+    "pronunciation": "hiyya",
+    "type_info": "pronoun",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      529
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      167
+    ]
+  },
+  {
+    "id": 527,
+    "text": "she is the middle one of her siblings",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": null,
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      526
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      166
+    ]
+  },
+  {
+    "id": 526,
+    "text": "\u0647\u0640\u0650\u064a \u064e \u0627 \u0650\u0644\u0648 \u064f\u0633\u0637\u0627 \u064e\u0646\u064a\u0640\u064e\u0629 \u0641\u064a \u0625\u062e\u0648\u0627 \u064e\u062a\u0640 \u0640\u0640\u0647\u0627",
+    "language_code": "arz",
+    "pronunciation": "hiya ilwustanya fi 'ichwaet-ha",
+    "type_info": null,
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      527
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      166
+    ]
+  }
+]

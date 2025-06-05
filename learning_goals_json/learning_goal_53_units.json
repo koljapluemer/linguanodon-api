@@ -1,0 +1,541 @@
+[
+  {
+    "id": 174,
+    "text": "so (very)",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      169,
+      168
+    ],
+    "synonyms": [
+      173,
+      172,
+      171,
+      170
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 173,
+    "text": "very much",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      169,
+      168
+    ],
+    "synonyms": [
+      174,
+      172,
+      171,
+      170
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 172,
+    "text": "really",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "very",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      169,
+      168
+    ],
+    "synonyms": [
+      174,
+      173,
+      171,
+      170
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 171,
+    "text": "bloody",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "very",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      169,
+      168
+    ],
+    "synonyms": [
+      174,
+      173,
+      172,
+      170
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 170,
+    "text": "very",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      169,
+      168
+    ],
+    "synonyms": [
+      174,
+      173,
+      172,
+      171
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 169,
+    "text": "\u0642\u0640\u064e\u0648\u064a",
+    "language_code": "arz",
+    "pronunciation": "'awi",
+    "type_info": "adverb",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      174,
+      173,
+      172,
+      171,
+      170
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      168
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 168,
+    "text": "\u0623\u0648\u064a",
+    "language_code": "arz",
+    "pronunciation": "'awi",
+    "type_info": "adverb",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      174,
+      173,
+      172,
+      171,
+      170
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      169
+    ],
+    "learning_goals": [
+      57
+    ]
+  },
+  {
+    "id": 167,
+    "text": "tasty",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adjective",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      165,
+      164,
+      163
+    ],
+    "synonyms": [
+      166
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 166,
+    "text": "delicious",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adjective",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      165,
+      164,
+      163
+    ],
+    "synonyms": [
+      167
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 165,
+    "text": "\u0644\u0640\u064f\u0630\u0627 \u064e\u0630",
+    "language_code": "arb",
+    "pronunciation": "luzaez",
+    "type_info": "adjective plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      167,
+      166
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      164,
+      163
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 164,
+    "text": "\u0644\u0640\u064e\u0630\u064a\u0630 \u064e\u0629",
+    "language_code": "arb",
+    "pronunciation": "lazeeza",
+    "type_info": "adjective feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      167,
+      166
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      165,
+      163
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 163,
+    "text": "\u0644\u0640\u064e\u0630\u064a\u0630",
+    "language_code": "arb",
+    "pronunciation": "lazeez",
+    "type_info": "adjective masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      167,
+      166
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      165,
+      164
+    ],
+    "learning_goals": [
+      56
+    ]
+  },
+  {
+    "id": 162,
+    "text": "belong (to)",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "verb",
+    "notes": "own",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      160,
+      159,
+      158
+    ],
+    "synonyms": [
+      161
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 161,
+    "text": "belonging (to)",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "participle",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      160,
+      159,
+      158
+    ],
+    "synonyms": [
+      162
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 160,
+    "text": "\u0628\u0640\u0650\u062a\u0648\u0639",
+    "language_code": "arz",
+    "pronunciation": "bitooA",
+    "type_info": "participle plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      162,
+      161
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      159,
+      158
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 159,
+    "text": "\u0628\u0640\u0650\u062a\u0627 \u064e\u0639\u0640\u0650\u0629",
+    "language_code": "arz",
+    "pronunciation": "bitaeAit",
+    "type_info": "participle feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      162,
+      161
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      160,
+      158
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 158,
+    "text": "\u0628\u0640\u0650\u062a\u0627 \u064e\u0639",
+    "language_code": "arz",
+    "pronunciation": "bitaeA",
+    "type_info": "participle masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      162,
+      161
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      160,
+      159
+    ],
+    "learning_goals": [
+      55
+    ]
+  },
+  {
+    "id": 157,
+    "text": "eating",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "noun",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      155
+    ],
+    "synonyms": [
+      156
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 156,
+    "text": "food",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "noun",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      155
+    ],
+    "synonyms": [
+      157
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 155,
+    "text": "\u0623\u0643\u0644",
+    "language_code": "arz",
+    "pronunciation": "'akl",
+    "type_info": "noun masculine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      157,
+      156
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      54
+    ]
+  },
+  {
+    "id": 154,
+    "text": "mike's food is very tasty",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": null,
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      153
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      53
+    ]
+  },
+  {
+    "id": 153,
+    "text": "\u0627 \u0650\u0644\u0623\u0643\u0644 \u0628\u0640\u0650\u062a\u0627 \u064e\u0639 \u0645\u0627 \u064e\u064a\u0640\u0650\u0643 \u0644\u0640\u064e\u0630\u064a\u0630 \u0623\u0648\u064a",
+    "language_code": "arz",
+    "pronunciation": "il'akl bitaeA maeyik lazeez 'awi",
+    "type_info": null,
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      154
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      53
+    ]
+  }
+]

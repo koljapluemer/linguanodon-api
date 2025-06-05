@@ -15,13 +15,23 @@ class LearningGoal(models.Model):
     def __str__(self):
         return self.name
 
-    def get_all_units_of_meaning(self):
-        all_goal_ids = set()
-        to_visit = [self]
+    def get_recursive_child_goals(self):
+        """Get all child learning goals recursively"""
+        child_goals = set()
+        to_visit = list(self.children.all())
         while to_visit:
             current = to_visit.pop()
-            if current.id not in all_goal_ids:
-                all_goal_ids.add(current.id)
+            if current.id not in child_goals:
+                child_goals.add(current)
                 to_visit.extend(list(current.children.all()))
+        return child_goals
+
+    def get_directly_related_units(self):
+        """Get units directly related to this learning goal"""
+        return UnitOfMeaning.objects.filter(learning_goals=self)
+
+    def get_all_related_units(self):
+        """Get all units of meaning related to this learning goal and its children"""
+        all_goal_ids = {self.id} | {g.id for g in self.get_recursive_child_goals()}
         return UnitOfMeaning.objects.filter(learning_goals__id__in=all_goal_ids).distinct()
 

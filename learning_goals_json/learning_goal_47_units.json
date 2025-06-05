@@ -1,0 +1,416 @@
+[
+  {
+    "id": 152,
+    "text": "(at) least",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adverb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      151
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 151,
+    "text": "\u0639\u0640\u064e\u0644\u0649 \u0627 \u0650\u0644\u0623\u0642\u0640\u064e\u0644\u0651",
+    "language_code": "arz",
+    "pronunciation": "Aala il'a'all",
+    "type_info": "comparative",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      152
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      52
+    ]
+  },
+  {
+    "id": 150,
+    "text": "daily",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "adjective",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      149
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 149,
+    "text": "\u064a\u0648\u0645\u064a\u0627\u064b \u064e",
+    "language_code": "arb",
+    "pronunciation": "yoomyan",
+    "type_info": "adjective",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      150
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      51
+    ]
+  },
+  {
+    "id": 148,
+    "text": "hour",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "noun",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      147,
+      146
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 147,
+    "text": "\u0633\u0627 \u064e\u0639\u0627 \u064e\u062a",
+    "language_code": "arb",
+    "pronunciation": "saAaet",
+    "type_info": "noun plural",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      148
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      146
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 146,
+    "text": "\u0633\u0627 \u064e\u0639\u0640\u064e\u0629",
+    "language_code": "arb",
+    "pronunciation": "saeAa",
+    "type_info": "noun feminine",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      148
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      147
+    ],
+    "learning_goals": [
+      50
+    ]
+  },
+  {
+    "id": 145,
+    "text": "step",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "verb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      143,
+      142,
+      141,
+      140
+    ],
+    "synonyms": [
+      144
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 144,
+    "text": "walk",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "verb",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      143,
+      142,
+      141,
+      140
+    ],
+    "synonyms": [
+      145
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 143,
+    "text": "\u0645\u0640\u064e\u0645\u0634\u064a",
+    "language_code": "arz",
+    "pronunciation": "mamshi",
+    "type_info": "verb passive participle",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      145,
+      144
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      142,
+      141,
+      140
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 142,
+    "text": "\u0645\u0627 \u064e\u0634\u064a",
+    "language_code": "arz",
+    "pronunciation": "maeshi",
+    "type_info": "verb active participle",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      145,
+      144
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      143,
+      141,
+      140
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 141,
+    "text": "\u064a\u0640\u0650\u0645\u0634\u064a",
+    "language_code": "arz",
+    "pronunciation": "yimshi",
+    "type_info": "verb imperfect",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      145,
+      144
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      143,
+      142,
+      140
+    ],
+    "learning_goals": []
+  },
+  {
+    "id": 140,
+    "text": "\u0645\u0640\u0650\u0634\u064a",
+    "language_code": "arz",
+    "pronunciation": "mishi",
+    "type_info": "verb perfect",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      145,
+      144
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [
+      143,
+      142,
+      141
+    ],
+    "learning_goals": [
+      49
+    ]
+  },
+  {
+    "id": 138,
+    "text": "must",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "modal",
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      136
+    ],
+    "synonyms": [
+      137
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 137,
+    "text": "have to",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": "verb",
+    "notes": "must",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      136
+    ],
+    "synonyms": [
+      138
+    ],
+    "similar_but_not_synonyms": [],
+    "learning_goals": []
+  },
+  {
+    "id": 136,
+    "text": "\u0644\u0627 \u064e\u0632 \u0650\u0645",
+    "language_code": "arb",
+    "pronunciation": "laezim",
+    "type_info": "modal",
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      138,
+      137
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      48
+    ]
+  },
+  {
+    "id": 135,
+    "text": "you have to walk at least an hour daily",
+    "language_code": "en",
+    "pronunciation": null,
+    "type_info": null,
+    "notes": null,
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      134
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      47
+    ]
+  },
+  {
+    "id": 134,
+    "text": "\u0644\u0627 \u064e\u0632 \u0650\u0645 \u062a\u0640\u0650\u0645\u0634\u0649 \u0633\u0627 \u064e\u0639\u0640\u064e\u0629 \u064a\u0648\u0645\u064a\u0627\u064b \u064e \u0639\u0640\u064e\u0644\u0649 \u0627 \u0650\u0644\u0623\u0642\u0640\u064e\u0644",
+    "language_code": "arz",
+    "pronunciation": "laezim timsha saeAa yoomyan Aala il'a'al",
+    "type_info": null,
+    "notes": "",
+    "creation_context": "Lisaan Masry Script",
+    "license": "Copyright \u00a9 2007-2020 Mike Green \u2014 non-commercial use",
+    "owner": "Lisaan Masry",
+    "owner_link": "https://eu.lisaanmasry.org/info/en/copyright.html",
+    "source": "Lisaan Masry Examples",
+    "source_link": "https://eu.lisaanmasry.org/online/example.php",
+    "translations": [
+      135
+    ],
+    "synonyms": [],
+    "similar_but_not_synonyms": [],
+    "learning_goals": [
+      47
+    ]
+  }
+]
