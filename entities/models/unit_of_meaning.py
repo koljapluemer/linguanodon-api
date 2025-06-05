@@ -1,11 +1,10 @@
 from django.db import models
 
-from entities.models.language import Language
 from entities.models.learning_goal import LearningGoal
 
 class UnitOfMeaning(models.Model):
     text = models.TextField()
-    language = models.ForeignKey(Language, on_delete=models.CASCADE)
+    language_code = models.CharField(max_length=255)
     pronunciation = models.TextField(blank=True, null=True)
 
     translations = models.ManyToManyField('self', blank=True)

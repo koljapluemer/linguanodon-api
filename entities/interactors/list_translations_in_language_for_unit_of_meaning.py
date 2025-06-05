@@ -1,6 +1,6 @@
 from django.core.paginator import Paginator
 from django.shortcuts import get_object_or_404
-from entities.models import UnitOfMeaning, Language
+from entities.models import UnitOfMeaning
 
 def list_translations_in_language_for_unit_of_meaning(unit_of_meaning_id: int, language_code: str, page: int = 1, page_size: int = 10):
     """
@@ -8,7 +8,7 @@ def list_translations_in_language_for_unit_of_meaning(unit_of_meaning_id: int, l
     
     Args:
         unit_of_meaning_id: The ID of the unit of meaning to get translations for
-        language_code: The code of the language to get translations in
+        language_code: The BCP 47 language code to get translations in
         page: Page number (1-based)
         page_size: Number of items per page
         
@@ -20,13 +20,10 @@ def list_translations_in_language_for_unit_of_meaning(unit_of_meaning_id: int, l
     # Get unit of meaning or 404
     unit_of_meaning = get_object_or_404(UnitOfMeaning, id=unit_of_meaning_id)
     
-    # Get language or 404
-    language = get_object_or_404(Language, code=language_code)
-    
     # Get translations in the specified language
     translations = UnitOfMeaning.objects.filter(
         translations=unit_of_meaning,
-        language=language
+        language_code=language_code
     ).order_by('id')
     
     # Paginate results

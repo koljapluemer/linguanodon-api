@@ -1,6 +1,6 @@
 import requests
 from django.core.management.base import BaseCommand
-from entities.models import Language, LearningGoal, UnitOfMeaning
+from entities.models import LearningGoal, UnitOfMeaning
 
 class Command(BaseCommand):
     help = 'Creates UnitOfMeaning and LearningGoal objects from Tatoeba sentences'
@@ -14,16 +14,6 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
-        # Get or create languages
-        arz_language, _ = Language.objects.get_or_create(
-            name="Egyptian Arabic",
-            defaults={'code': 'ar-EG'}
-        )
-        en_language, _ = Language.objects.get_or_create(
-            name="English",
-            defaults={'code': 'en'}
-        )
-
         # Base URL for the Tatoeba API
         base_url = "https://api.dev.tatoeba.org/unstable/sentences"
         
@@ -55,7 +45,7 @@ class Command(BaseCommand):
                 # Create Egyptian Arabic UnitOfMeaning
                 arz_unit, created = UnitOfMeaning.objects.get_or_create(
                     text=arz_text,
-                    language=arz_language,
+                    language_code='ar-EG',
                     defaults={
                         'creation_context': "Automated Tatoeba API script",
                         'license': sentence.get('license'),
@@ -75,7 +65,7 @@ class Command(BaseCommand):
                             if trans.get('lang') == 'eng':
                                 en_unit = UnitOfMeaning.objects.create(
                                     text=trans['text'],
-                                    language=en_language,
+                                    language_code='en',
                                     creation_context="Automated Tatoeba API script",
                                     license=trans.get('license'),
                                     owner=trans.get('owner'),
@@ -90,7 +80,7 @@ class Command(BaseCommand):
                     # Create LearningGoal
                     learning_goal = LearningGoal.objects.create(
                         name=f"arz: Understand {arz_text}",
-                        language=arz_language
+                        language_code='ar-EG'
                     )
                     # Connect the learning goal to the unit of meaning
                     arz_unit.learning_goals.add(learning_goal)

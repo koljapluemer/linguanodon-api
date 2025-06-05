@@ -8,18 +8,20 @@ Lists all learning goals for a specific language.
 GET /api/list_learning_goals_for_language/{language_code}/
 ```
 
-## Path Parameters
+## Parameters
+
+### Path Parameters
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| language_code | string | The code of the language to get learning goals for (e.g., 'en' for English) |
+| language_code | string | The BCP 47 language code to get learning goals for (e.g., 'en' for English) |
 
-## Query Parameters
+### Query Parameters
 
-| Parameter | Type | Default | Description |
-|-----------|------|---------|-------------|
-| page | integer | 1 | Page number (1-based) |
-| page_size | integer | 10 | Number of items per page (max 100) |
+| Parameter | Type | Description | Default |
+|-----------|------|-------------|---------|
+| page | integer | Page number (1-based) | 1 |
+| page_size | integer | Number of items per page | 10 |
 
 ## Response
 
@@ -51,16 +53,7 @@ GET /api/list_learning_goals_for_language/{language_code}/
 
 ### Error Responses
 
-#### Language Not Found (404)
-
-```json
-{
-    "status": "error",
-    "message": "Language with code en not found"
-}
-```
-
-#### Invalid Pagination Parameters (400)
+#### Invalid Parameters (400)
 
 ```json
 {
@@ -69,12 +62,25 @@ GET /api/list_learning_goals_for_language/{language_code}/
 }
 ```
 
-## Example Usage
+#### Server Error (500)
+
+```json
+{
+    "status": "error",
+    "message": "Internal server error"
+}
+```
+
+## Examples
+
+### Basic Request
 
 ```bash
-# Get first page of English learning goals
 curl /api/list_learning_goals_for_language/en/
+```
 
-# Get second page with 20 items per page
+### With Pagination
+
+```bash
 curl /api/list_learning_goals_for_language/en/?page=2&page_size=20
 ``` 

@@ -7,6 +7,11 @@ Backend providing source data for *linguanodon*.
 See also:
   - [How to Add an Endpoint](/doc/adding-an-endpoint.md)
 
+### Handling Languages
+
+- Use BCP 47/[IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) for language codes
+- Language codes are stored directly in the models (e.g., 'en' for English, 'ar-EG' for Egyptian Arabic)
+
 ### Structure
 
 - Define shared models in the `entities` app and nowhere else

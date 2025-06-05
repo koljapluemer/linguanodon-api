@@ -1,6 +1,5 @@
 from django.http import JsonResponse
 from django.views import View
-from entities.models.language import Language
 from entities.interactors.list_learning_goals_for_language import list_learning_goals_for_language
 
 class ListLearningGoalsForLanguageView(View):
@@ -35,11 +34,6 @@ class ListLearningGoalsForLanguageView(View):
                 'pagination': pagination_meta
             })
             
-        except Language.DoesNotExist:
-            return JsonResponse({
-                'status': 'error',
-                'message': f'Language with code {language_code} not found'
-            }, status=404)
         except ValueError as e:
             return JsonResponse({
                 'status': 'error',

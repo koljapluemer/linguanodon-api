@@ -8,19 +8,21 @@ Lists all translations of a unit of meaning in a specific language.
 GET /api/list_translations_in_language_for_unit_of_meaning/{unit_of_meaning_id}/{language_code}/
 ```
 
-## Path Parameters
+## Parameters
+
+### Path Parameters
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | unit_of_meaning_id | integer | The ID of the unit of meaning to get translations for |
-| language_code | string | The code of the language to get translations in (e.g., 'en' for English) |
+| language_code | string | The BCP 47 language code to get translations in (e.g., 'en' for English) |
 
-## Query Parameters
+### Query Parameters
 
-| Parameter | Type | Default | Description |
-|-----------|------|---------|-------------|
-| page | integer | 1 | Page number (1-based) |
-| page_size | integer | 10 | Number of items per page (max 100) |
+| Parameter | Type | Description | Default |
+|-----------|------|-------------|---------|
+| page | integer | Page number (1-based) | 1 |
+| page_size | integer | Number of items per page | 10 |
 
 ## Response
 
@@ -50,25 +52,7 @@ GET /api/list_translations_in_language_for_unit_of_meaning/{unit_of_meaning_id}/
 
 ### Error Responses
 
-#### Unit of Meaning Not Found (404)
-
-```json
-{
-    "status": "error",
-    "message": "Unit of meaning with id 1 not found"
-}
-```
-
-#### Language Not Found (404)
-
-```json
-{
-    "status": "error",
-    "message": "Language with code en not found"
-}
-```
-
-#### Invalid Pagination Parameters (400)
+#### Invalid Parameters (400)
 
 ```json
 {
@@ -77,12 +61,34 @@ GET /api/list_translations_in_language_for_unit_of_meaning/{unit_of_meaning_id}/
 }
 ```
 
-## Example Usage
+#### Not Found (404)
+
+```json
+{
+    "status": "error",
+    "message": "Unit of meaning not found"
+}
+```
+
+#### Server Error (500)
+
+```json
+{
+    "status": "error",
+    "message": "Internal server error"
+}
+```
+
+## Examples
+
+### Basic Request
 
 ```bash
-# Get first page of English translations for unit of meaning with ID 1
 curl /api/list_translations_in_language_for_unit_of_meaning/1/en/
+```
 
-# Get second page with 20 items per page
+### With Pagination
+
+```bash
 curl /api/list_translations_in_language_for_unit_of_meaning/1/en/?page=2&page_size=20
 ```

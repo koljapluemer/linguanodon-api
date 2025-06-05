@@ -1,20 +1,11 @@
 [
     {
-        "model": "entities.language",
-        "pk": 1,
-        "fields": {
-            "name": "English",
-            "code": "en",
-            "updated_at": "2024-01-01T00:00:00Z"
-        }
-    },
-    {
         "model": "entities.learninggoal",
         "pk": 1,
         "fields": {
             "name": "Basic Greetings",
             "description": "Learn common greeting phrases",
-            "language": 1,
+            "language_code": "en",
             "updated_at": "2024-01-01T00:00:00Z"
         }
     },
@@ -23,7 +14,7 @@
         "pk": 1,
         "fields": {
             "text": "Hello",
-            "language": 1,
+            "language_code": "en",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "learning_goals": [1]
@@ -34,7 +25,7 @@
         "pk": 2,
         "fields": {
             "text": "Good morning",
-            "language": 1,
+            "language_code": "en",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "learning_goals": [1]
@@ -45,7 +36,7 @@
         "pk": 3,
         "fields": {
             "text": "Goodbye",
-            "language": 1,
+            "language_code": "en",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "learning_goals": []
@@ -56,7 +47,7 @@
         "pk": 4,
         "fields": {
             "text": "How are you?",
-            "language": 1,
+            "language_code": "en",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "learning_goals": [1]

@@ -18,11 +18,7 @@ def get_unit_of_meaning(unit_of_meaning_id: int):
     return {
         'id': unit.id,
         'text': unit.text,
-        'language': {
-            'id': unit.language.id,
-            'name': unit.language.name,
-            'code': unit.language.code
-        },
+        'language_code': unit.language_code,
         'creation_context': unit.creation_context,
         'license': unit.license,
         'owner': unit.owner,

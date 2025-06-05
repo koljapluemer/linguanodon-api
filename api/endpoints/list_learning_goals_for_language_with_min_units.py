@@ -1,7 +1,6 @@
 from django.http import JsonResponse
 from django.views import View
 from django.db.models import Count, Q, F
-from entities.models.language import Language
 from entities.models.learning_goal import LearningGoal
 
 class ListLearningGoalsForLanguageWithMinUnitsView(View):
@@ -17,12 +16,9 @@ class ListLearningGoalsForLanguageWithMinUnitsView(View):
             page_size = max(1, min(page_size, 100))  # Cap at 100 items per page
             min_units = max(0, min_units)  # Ensure min_units is non-negative
             
-            # Get the language
-            language = Language.objects.get(code=language_code)
-            
             # Query learning goals with minimum units of meaning and child learning goals
             learning_goals = LearningGoal.objects.filter(
-                language=language
+                language_code=language_code
             ).annotate(
                 unit_count=Count('unitofmeaning'),
                 child_count=Count('children')
@@ -68,11 +64,6 @@ class ListLearningGoalsForLanguageWithMinUnitsView(View):
                 'pagination': pagination_meta
             })
             
-        except Language.DoesNotExist:
-            return JsonResponse({
-                'status': 'error',
-                'message': f'Language with code {language_code} not found'
-            }, status=404)
         except ValueError as e:
             return JsonResponse({
                 'status': 'error',

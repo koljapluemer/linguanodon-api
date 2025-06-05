@@ -1,28 +1,10 @@
 [
     {
-        "model": "entities.language",
-        "pk": 1,
-        "fields": {
-            "name": "English",
-            "code": "en",
-            "updated_at": "2024-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "entities.language",
-        "pk": 2,
-        "fields": {
-            "name": "Spanish",
-            "code": "es",
-            "updated_at": "2024-01-01T00:00:00Z"
-        }
-    },
-    {
         "model": "entities.unitofmeaning",
         "pk": 1,
         "fields": {
             "text": "Hola",
-            "language": 2,
+            "language_code": "es",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "translations": [3, 4]
@@ -33,7 +15,7 @@
         "pk": 2,
         "fields": {
             "text": "Adiós",
-            "language": 2,
+            "language_code": "es",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "translations": []
@@ -44,7 +26,7 @@
         "pk": 3,
         "fields": {
             "text": "Hello",
-            "language": 1,
+            "language_code": "en",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "translations": [1]
@@ -55,7 +37,7 @@
         "pk": 4,
         "fields": {
             "text": "Hi",
-            "language": 1,
+            "language_code": "en",
             "updated_at": "2024-01-01T00:00:00Z",
             "creation_context": "Test",
             "translations": [1]

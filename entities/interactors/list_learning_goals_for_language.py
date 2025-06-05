@@ -1,14 +1,13 @@
 from typing import List, Tuple
 from django.core.paginator import Paginator
 from entities.models.learning_goal import LearningGoal
-from entities.models.language import Language
 
 def list_learning_goals_for_language(language_code: str, page: int = 1, page_size: int = 10) -> Tuple[List[LearningGoal], dict]:
     """
     List all learning goals for a specific language with pagination.
     
     Args:
-        language_code (str): The code of the language to get learning goals for
+        language_code (str): The BCP 47 language code to get learning goals for
         page (int): The page number to return (1-based)
         page_size (int): Number of items per page
         
@@ -16,12 +15,8 @@ def list_learning_goals_for_language(language_code: str, page: int = 1, page_siz
         Tuple[List[LearningGoal], dict]: A tuple containing:
             - List of learning goals for the specified language
             - Pagination metadata including total pages and items
-            
-    Raises:
-        Language.DoesNotExist: If the language with the given code doesn't exist
     """
-    language = Language.objects.get(code=language_code)
-    queryset = LearningGoal.objects.filter(language=language).only('id', 'name').order_by('id')
+    queryset = LearningGoal.objects.filter(language_code=language_code).only('id', 'name').order_by('id')
     
     paginator = Paginator(queryset, page_size)
     page_obj = paginator.get_page(page)
