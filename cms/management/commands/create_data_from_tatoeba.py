@@ -88,10 +88,12 @@ class Command(BaseCommand):
                                 en_unit.translations.add(arz_unit)
                     
                     # Create LearningGoal
-                    LearningGoal.objects.create(
+                    learning_goal = LearningGoal.objects.create(
                         name=f"arz: Understand {arz_text}",
                         language=arz_language
                     )
+                    # Connect the learning goal to the unit of meaning
+                    arz_unit.learning_goals.add(learning_goal)
                     
                     created_count += 1
                     self.stdout.write(f'Created data for: {arz_text}')
