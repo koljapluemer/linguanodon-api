@@ -1,6 +1,6 @@
 from django.db import models
 
-from entities.models.learning_unit import LearningUnit
+from linguanodon.models.learning_unit import LearningUnit
 
 class TanglibleLearningUnit(LearningUnit):
     text = models.TextField()

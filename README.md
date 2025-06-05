@@ -14,8 +14,8 @@ See also:
 
 ### Structure
 
-- Define shared models in the `entities` app and nowhere else
-- Put logic directly related to those models in `entities/interactors`
+- Define shared models in the `linguanodon` app and nowhere else
+- Put logic directly related to those models in `linguanodon/interactors`
 - Build endpoints in the `api` app
 - Build custom, "function-based" endpoints without any framework
 - Unit-test endpoints by adding tests in `api/tests`

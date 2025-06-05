@@ -1,6 +1,6 @@
 import requests
 from django.core.management.base import BaseCommand
-from entities.models import LearningGoal, UnitOfMeaning
+from linguanodon.models import LearningGoal, UnitOfMeaning
 
 class Command(BaseCommand):
     help = 'Creates UnitOfMeaning and LearningGoal objects from Tatoeba sentences'

@@ -39,13 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'entities',
-    'cms',
-    'rest_framework',
-    'django_filters',
-    'drf_spectacular',
-    'corsheaders',  # Add CORS headers app
-    'makejson',
+    'linguanodon',
 ]
 
 MIDDLEWARE = [

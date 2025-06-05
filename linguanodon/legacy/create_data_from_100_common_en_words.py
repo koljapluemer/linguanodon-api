@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from django.core.management.base import BaseCommand
-from entities.models import LearningGoal, UnitOfMeaning
+from linguanodon.models import LearningGoal, UnitOfMeaning
 
 class Command(BaseCommand):
     help = 'Creates the 100 most common English words with their learning goals'

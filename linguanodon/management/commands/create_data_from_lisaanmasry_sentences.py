@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
 import time
 import re
-from entities.models import LearningUnit, TanglibleLearningUnit
+from linguanodon.models import LearningUnit, TanglibleLearningUnit
 
 MAX_SENTENCES = 25  # Limit the number of sentences to scrape
 SLEEP_TIME = 1  # Sleep time between requests in seconds
@@ -81,25 +81,31 @@ class Command(BaseCommand):
                     # Create TanglibleLearningUnit for the form
                     self.stdout.write(f'DEBUG: Creating TanglibleLearningUnit for form "{form_arabic}"')
                     try:
-                        form_unit, created = TanglibleLearningUnit.objects.get_or_create(
-                            text=form_arabic,
-                            language_code=word_lang,
-                            type_info=f"{word_base_type} {form_type}".strip(),
-                            defaults={
-                                'name': f'Learn "{form_arabic}"',
-                                'pronunciation': form_transliteration,
-                                'creation_context': "Lisaan Masry Script",
-                                'license': "Copyright © 2007-2020 Mike Green — non-commercial use",
-                                'owner': "Lisaan Masry",
-                                'owner_link': "https://eu.lisaanmasry.org/info/en/copyright.html",
-                                'source': "Lisaan Masry Examples",
-                                'source_link': "https://eu.lisaanmasry.org/online/example.php"
-                            }
-                        )
-                        if created:
-                            self.stdout.write(f'DEBUG: Created new TanglibleLearningUnit for form "{form_arabic}"')
-                        else:
+                        type_info = f"{word_base_type} {form_type}".strip()
+                        # First try to get the existing unit
+                        try:
+                            form_unit = TanglibleLearningUnit.objects.get(
+                                text=form_arabic,
+                                type_info=type_info
+                            )
                             self.stdout.write(f'DEBUG: Found existing TanglibleLearningUnit for form "{form_arabic}"')
+                        except TanglibleLearningUnit.DoesNotExist:
+                            # If it doesn't exist, create it
+                            form_unit = TanglibleLearningUnit.objects.create(
+                                text=form_arabic,
+                                language_code=word_lang,
+                                type_info=type_info,
+                                name=f'Learn "{form_arabic}"',
+                                pronunciation=form_transliteration,
+                                creation_context="Lisaan Masry Script",
+                                license="Copyright © 2007-2020 Mike Green — non-commercial use",
+                                owner="Lisaan Masry",
+                                owner_link="https://eu.lisaanmasry.org/info/en/copyright.html",
+                                source="Lisaan Masry Examples",
+                                source_link="https://eu.lisaanmasry.org/online/example.php"
+                            )
+                            self.stdout.write(f'DEBUG: Created new TanglibleLearningUnit for form "{form_arabic}"')
+                        
                         form_unit.parents.add(word_learning_unit)
                     except Exception as e:
                         self.stdout.write(self.style.ERROR(f'Error creating form TanglibleLearningUnit: {str(e)}'))
@@ -198,16 +204,24 @@ class Command(BaseCommand):
             word_name = f"{word_text} ({word_base_type})".strip()
             self.stdout.write(f'DEBUG: Creating word LearningUnit with name="{word_name}"')
             try:
-                word_learning_unit, created = LearningUnit.objects.get_or_create(
-                    language_code="arz",
-                    name=word_name,
-                    defaults={'description': ''}
-                )
-                if created:
-                    self.stdout.write(f'DEBUG: Created new word LearningUnit with name="{word_name}"')
-                    word_learning_unit.parents.add(sentence_learning_unit)
-                else:
+                # First try to get the existing unit
+                try:
+                    word_learning_unit = LearningUnit.objects.get(
+                        language_code="arz",
+                        name=word_name
+                    )
                     self.stdout.write(f'DEBUG: Found existing word LearningUnit with name="{word_name}"')
+                except LearningUnit.DoesNotExist:
+                    # If it doesn't exist, create it
+                    word_learning_unit = LearningUnit.objects.create(
+                        language_code="arz",
+                        name=word_name,
+                        description=''
+                    )
+                    self.stdout.write(f'DEBUG: Created new word LearningUnit with name="{word_name}"')
+                
+                # Add parent relationship
+                word_learning_unit.parents.add(sentence_learning_unit)
             except Exception as e:
                 self.stdout.write(self.style.ERROR(f'Error creating word learning unit: {str(e)}'))
                 return
@@ -289,50 +303,58 @@ class Command(BaseCommand):
 
             # Create TanglibleLearningUnit for the Arabic sentence
             try:
-                arz_unit, created = TanglibleLearningUnit.objects.get_or_create(
-                    text=sentence_arz,
-                    language_code='arz',
-                    type_info=None,
-                    defaults={
-                        'name': f'Learn "{sentence_arz}"',
-                        'pronunciation': sentence_transliteration,
-                        'notes': sentence_notes,
-                        'creation_context': 'Lisaan Masry Script',
-                        'license': 'Copyright © 2007-2020 Mike Green — non-commercial use',
-                        'owner': 'Lisaan Masry',
-                        'owner_link': 'https://eu.lisaanmasry.org/info/en/copyright.html',
-                        'source': source_text,
-                        'source_link': 'https://eu.lisaanmasry.org/online/example.php'
-                    }
-                )
-                if created:
-                    self.stdout.write('Created new Arabic sentence unit')
-                else:
+                # First try to get the existing unit
+                try:
+                    arz_unit = TanglibleLearningUnit.objects.get(
+                        text=sentence_arz,
+                        type_info=None
+                    )
                     self.stdout.write('Found existing Arabic sentence unit')
+                except TanglibleLearningUnit.DoesNotExist:
+                    # If it doesn't exist, create it
+                    arz_unit = TanglibleLearningUnit.objects.create(
+                        text=sentence_arz,
+                        language_code='arz',
+                        type_info=None,
+                        name=f'Learn "{sentence_arz}"',
+                        pronunciation=sentence_transliteration,
+                        notes=sentence_notes,
+                        creation_context='Lisaan Masry Script',
+                        license='Copyright © 2007-2020 Mike Green — non-commercial use',
+                        owner='Lisaan Masry',
+                        owner_link='https://eu.lisaanmasry.org/info/en/copyright.html',
+                        source=source_text,
+                        source_link='https://eu.lisaanmasry.org/online/example.php'
+                    )
+                    self.stdout.write('Created new Arabic sentence unit')
             except Exception as e:
                 self.stdout.write(self.style.ERROR(f'Error creating Arabic sentence unit: {str(e)}'))
                 return None
 
             # Create TanglibleLearningUnit for the English sentence
             try:
-                en_unit, created = TanglibleLearningUnit.objects.get_or_create(
-                    text=sentence_en,
-                    language_code='en',
-                    type_info='sentence_translation',
-                    defaults={
-                        'name': f'Learn "{sentence_en}"',
-                        'creation_context': 'Lisaan Masry Script',
-                        'license': 'Copyright © 2007-2020 Mike Green — non-commercial use',
-                        'owner': 'Lisaan Masry',
-                        'owner_link': 'https://eu.lisaanmasry.org/info/en/copyright.html',
-                        'source': source_text,
-                        'source_link': 'https://eu.lisaanmasry.org/online/example.php'
-                    }
-                )
-                if created:
-                    self.stdout.write('Created new English sentence unit')
-                else:
+                # First try to get the existing unit
+                try:
+                    en_unit = TanglibleLearningUnit.objects.get(
+                        text=sentence_en,
+                        type_info='sentence_translation'
+                    )
                     self.stdout.write('Found existing English sentence unit')
+                except TanglibleLearningUnit.DoesNotExist:
+                    # If it doesn't exist, create it
+                    en_unit = TanglibleLearningUnit.objects.create(
+                        text=sentence_en,
+                        language_code='en',
+                        type_info='sentence_translation',
+                        name=f'Learn "{sentence_en}"',
+                        creation_context='Lisaan Masry Script',
+                        license='Copyright © 2007-2020 Mike Green — non-commercial use',
+                        owner='Lisaan Masry',
+                        owner_link='https://eu.lisaanmasry.org/info/en/copyright.html',
+                        source=source_text,
+                        source_link='https://eu.lisaanmasry.org/online/example.php'
+                    )
+                    self.stdout.write('Created new English sentence unit')
 
                 # Set up bidirectional translations
                 en_unit.translations.add(arz_unit)

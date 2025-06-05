@@ -1,7 +1,7 @@
 import json
 import os
 from django.core.management.base import BaseCommand
-from entities.models import LearningUnit, TanglibleLearningUnit
+from linguanodon.models import LearningUnit, TanglibleLearningUnit
 
 # Configuration constants
 MIN_CHILDREN_COUNT = 3  # Minimum number of children for a learning unit to be included
@@ -178,7 +178,7 @@ class Command(BaseCommand):
         # Create TypeScript types file
         types_content = """// Generated types for learning units data
 
-// Base types for individual entities
+// Base types for individual linguanodon
 export interface LearningUnit {
     id: number;
     name: string;
