@@ -16,13 +16,8 @@ class TestGetUnitOfMeaning(TestCase):
             self.expected_response = json.load(f)
 
     def test_get_unit_of_meaning(self):
-        # Given
-        unit_of_meaning_id = 1
-        url = reverse('get_unit_of_meaning', kwargs={'unit_of_meaning_id': unit_of_meaning_id})
-
-        # When
+        url = reverse('get_unit_of_meaning', kwargs={'unit_of_meaning_id': 1})
         response = self.client.get(url)
-
-        # Then
+        
         self.assertEqual(response.status_code, 200)
         self.assertEqual(json.loads(response.content), self.expected_response) 
