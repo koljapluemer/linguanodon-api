@@ -2,13 +2,13 @@ from django.db import models
 
 from linguanodon.models.learning_unit import LearningUnit
 
+# note: derives from LearningUnit!
 class TanglibleLearningUnit(LearningUnit):
     text = models.TextField()
     pronunciation = models.TextField(blank=True, null=True)
     type_info = models.CharField(max_length=255, blank=True, null=True)
     notes = models.TextField(blank=True, null=True)
 
-    # implies also synonyms in the same language (for now, not sure about sensibility)
     translations = models.ManyToManyField('self', blank=True)
     synonyms = models.ManyToManyField('self', blank=True)
     similar_but_not_synonyms = models.ManyToManyField('self', blank=True)
