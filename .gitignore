@@ -1,5 +1,5 @@
 staticfiles
-
+learning_goals_json
 # Django #
 *.log
 *.pot
