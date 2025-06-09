@@ -6,3 +6,4 @@ For now, track the following props:
 
 - `is_blacklisted`
 - `last_practiced_at`
+- `last_improved_at`

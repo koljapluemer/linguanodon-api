@@ -4,6 +4,7 @@
 
 They come in different flavors. The base class is abstract.
 Every exercise must have an `instruction` & `createdAt`. They also have a field `blockedBy`, a non-symmetric many-to-many to other `Exercise`s.
+Furthermore, they have a `hash` property, a string containing further information about how to treat the exercise.
 
 An exercise belongs to a single `UnitOfMeaning` (from which it was generated).
 
