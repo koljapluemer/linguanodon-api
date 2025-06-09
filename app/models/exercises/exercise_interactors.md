@@ -1,0 +1,2 @@
+- Provides basic CRUD operations for `Exercise`.
+- Provides an interactor that takes an `Exercise` and `User` and finds out whether the exercise is new (if it has no `ExerciseProgress` with these props)

@@ -1,0 +1,2 @@
+- Should provide CRUD operations for `ExerciseProgress`
+- Should provide functions that deal with `py-fsrs`: Creating a valid fsrs `Card` from a db model, and creating a valid updated `ExerciseProgress` object from the previous object based on a learning event. For that, note the [fsrs code](https://raw.githubusercontent.com/open-spaced-repetition/py-fsrs/refs/heads/main/fsrs/fsrs.py) and its [README](https://raw.githubusercontent.com/open-spaced-repetition/py-fsrs/refs/heads/main/README.md)
