@@ -201,10 +201,10 @@ export interface TanglibleLearningUnit {
     owner_link?: string;
     source?: string;
     source_link?: string;
-    translations?: number[];
-    synonyms?: number[];
-    similar_but_not_synonyms?: number[];
-    parents?: number[];
+    translations?: number[]; // ids of TanglibleLearningUnits
+    synonyms?: number[]; // ids of TanglibleLearningUnits
+    similar_but_not_synonyms?: number[]; // ids of TanglibleLearningUnits
+    parents?: number[]; // ids of LearningUnits
 }
 
 export interface LearningUnitIndex {
