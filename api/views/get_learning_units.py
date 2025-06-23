@@ -12,8 +12,8 @@ def get_learning_goals(request):
     except ValueError:
         page = 1
 
-    # Query all learning units
-    units = LearningUnit.objects.all().values('id', 'name')
+    # Query all learning units, now including language_code
+    units = LearningUnit.objects.all().values('id', 'name', 'language_code')
     total = units.count()
     num_pages = math.ceil(total / page_size)
     start = (page - 1) * page_size

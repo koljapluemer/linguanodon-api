@@ -1,6 +1,6 @@
 # Internal API Documentation: /api/learning-goals/
 
-This endpoint returns a paginated list of all learning goals (LearningUnit objects) with their `id` and `name`.
+This endpoint returns a paginated list of all learning goals (LearningUnit objects) with their `id`, `name`, and `language_code`.
 
 ## How to use
 - **URL:** `/api/learning-goals/`
@@ -13,8 +13,8 @@ This endpoint returns a paginated list of all learning goals (LearningUnit objec
 ```
 {
   "results": [
-    {"id": 1, "name": "Goal 1"},
-    {"id": 2, "name": "Goal 2"},
+    {"id": 1, "name": "Goal 1", "language_code": "en"},
+    {"id": 2, "name": "Goal 2", "language_code": "arz"},
     ... up to 50 per page ...
   ],
   "page": 1,
