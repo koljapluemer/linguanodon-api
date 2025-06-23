@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'linguanodon',
-    'django_extensions'
+    'django_extensions',
+    'api',
 ]
 
 MIDDLEWARE = [
