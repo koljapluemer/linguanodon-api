@@ -1,8 +1,10 @@
 # Linguanodon API
 
-Backend providing source data for *linguanodon*.
+Backend providing source data for *linguanodon*, built in Django.
 
 Currently a local-only app generating JSON files.
+
+*Not in use*
 
 ## Development
 
