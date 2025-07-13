@@ -1,5 +1,8 @@
 # Linguanodon API
 
+> [!NOTE]  
+> *Archived Prototype. I shrinked this sprawling project down to [linguanodon](github.com/koljapluemer/linguanodon)*
+
 Backend providing source data for *linguanodon*, built in Django.
 
 Currently a local-only app generating JSON files.
